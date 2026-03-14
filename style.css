@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: 600px;
+    min-height: 100px;
+    background: linear-gradient(to right , yellow , orange);
+    color:black;
+     font-family: "Poopins" ,serif ;
+
+ }
+ 
+
+ img{
+    max-width:100%;
+    height:auto;
+ }
+
+ /*NAV*/
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: gold;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+ }
+ .logo{
+font-family:'Orbitron',sans-serif;
+letter-spacing:2px;
+color:black;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#d7d2cc;
+font-size:14px;
+}
+
+.menu{
+display:none;
+cursor:pointer;
+}
+.hero{
+height:100vh;
+background:url("background.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero-text{
+background:rgba(28,28,28,0.6);
+padding:40px;
+border-radius:10px;
+}
+
+.hero-text h1{
+font-family:'Orbitron',sans-serif;
+font-size:50px;
+margin:10px 0;
+}
+
+.hero button{
+padding:12px 28px;
+border:none;
+background:#2f3a33;
+color:#d7d2cc;
+cursor:pointer;
+}
+/* ABOUT */
+
+.about{
+padding:120px 10%;
+background: gold;
+}
+
+.about-container{
+display:flex;
+align-items:center;
+gap:60px;
+}
+
+.about-img img{
+width:320px;
+border-radius:8px;
+}
+
+.about-text h2{
+font-family:'Orbitron';
+margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.features{
+padding:120px 10%;
+background:#FFDB58;
+}
+
+.feature-container{
+display:flex;
+align-items:center;
+gap:60px;
+}
+
+.feature-img img{
+width:320px;
+border-radius:8px;
+}
+
+.feature-text h2{
+font-family:'Orbitron';
+margin-bottom:15px;
+}
